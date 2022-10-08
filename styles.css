@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #D5E1EF;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+}
+
+:root {
+    --step--2: clamp(0.52rem, calc(0.44rem + 0.39vw), 0.72rem);
+    --step--1: clamp(0.63rem, calc(0.52rem + 0.54vw), 0.90rem);
+    --step-0: clamp(0.75rem, calc(0.60rem + 0.73vw), 1.13rem);
+    --step-1: clamp(0.90rem, calc(0.70rem + 0.99vw), 1.41rem);
+    --step-2: clamp(1.08rem, calc(0.82rem + 1.32vw), 1.76rem);
+    --step-3: clamp(1.30rem, calc(0.94rem + 1.76vw), 2.20rem);
+    --step-4: clamp(1.56rem, calc(1.09rem + 2.33vw), 2.75rem);
+    --step-5: clamp(1.87rem, calc(1.25rem + 3.06vw), 3.43rem);
+  }
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin: 1rem;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    align-content: center;
+    box-shadow: .3rem .3rem .5rem #c8c8c8;
+    width: min(90%, 21.8rem);
+    background-color: #fff;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    float: center;
+    border-radius: 1rem;
+    margin-bottom: .7rem;
+}
+
+h1 {
+    color: #18243A;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    background-color: #fff;
+}
+
+p {
+    color: #706F7F;
+    text-align: center;
+    margin: 2rem auto;
+    line-height: 1.5rem;
+    background-color: #fff;
+    font-size: 1rem;
+}
+.content-area {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    font-size: large;
+}
